@@ -311,7 +311,9 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--black);
+margin-top: 20px;
 margin-left: 24px;
+margin-bottom: 4px;
 }
 .menu-text{
 font-weight: 400;
