@@ -45,7 +45,7 @@ section{
 }
 .container{
   width: 100%;
-  max-width: 1170px;
+  max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -72,13 +72,15 @@ padding-top: 24px;
 padding-bottom: 25px;
 position: relative;
 }
-.code{
+.header-box{
   display: flex;
   align-items: center;
 }
 .header-list{
   display: flex;
-  margin-left: 76px;
+}
+.navigation{
+margin-left: 76px;
 }
 .header-link{
 font-weight: 500;
@@ -94,13 +96,20 @@ color: var(--NAVY_BLUE);
 .header-studia{
   color: var(--OCEAN);
 }
-.contact{
-  color: var(--SLATE);
-}
 .header-item:not(:last-child){
   margin-right: 50px;
 }
-.header-link:not(:last-child){
+.header-contact{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--SLATE);
+}
+.header-contact:hover,
+.header-contact:focus{
+  color: var(--OCEAN);
+}
+.header-contact:not(:last-child){
   margin-right: 50px;
 }
 .contact-box{
@@ -115,13 +124,10 @@ header::after{
 }
                            /* HERO */
 .hero{
-  width: 100%;
-  background: #2F303A;
-  padding: 0;
-}
-.hero > .container{
-  padding-top: 188px;
-  padding-bottom: 188px;
+width: 100%;
+background: #2F303A;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .hero-title{
 font-family: 'Roboto';
@@ -202,10 +208,15 @@ margin-bottom: 50px;
   gap: 24px;
 }
 .team-item{
+  display: block;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 width: calc((100% - 72px) / 4); /*(ВАЖНО ЗНАТЬ)*/
+}
+.team-box{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-title{
 font-weight: 500;
@@ -214,7 +225,6 @@ line-height: 1.12;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--NAVY_BLUE);
-margin-top: 32px;
 margin-bottom: 8px;
 }
 .team-text{
@@ -223,7 +233,6 @@ line-height: 1.15;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--SLATE);
-margin-bottom: 32px;
 }
                           /* FOOTER */
 .footer-list{
@@ -250,6 +259,7 @@ display: flex;
 justify-content: center;
 }
 .menu-btn{
+font-family: 'Roboto';
 padding: 12px 24px;
 font-weight: 500;
 font-size: 16px;
@@ -287,13 +297,14 @@ border: 1px solid #EEEEEE;
 .menu-items:nth-child(3n+2){
   margin-right: 30px;
 }
+.menu-box{
+padding: 32px 54px 32px 16px;
+}
 .menu-title{
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--NAVY_BLUE);
-margin-top: 20px;
-margin-left: 24px;
 margin-bottom: 4px;
 }
 .menu-text{
@@ -301,6 +312,4 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--SLATE);
-margin-left: 24px;
-margin-bottom: 20px;
 }
