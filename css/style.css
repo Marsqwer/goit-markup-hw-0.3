@@ -186,10 +186,10 @@ color: var(--SLATE);
                           /* ACTIVITY */
 .activity-list{
   display: flex;
-  gap: 24x;
+  gap: 24px;
 }
 .activity-items{
-  width:  calc((100%-48px) / 3); /*(ВАЖНО ЗНАТЬ)*/
+  width:  calc((100% - 48px) / 3); /*(ВАЖНО ЗНАТЬ)*/
 }
 .activity-title{
 font-size: 36px;
@@ -301,6 +301,7 @@ border: 1px solid #EEEEEE;
 padding: 32px 54px 32px 16px;
 }
 .menu-title{
+  font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
