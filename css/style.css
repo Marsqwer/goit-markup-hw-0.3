@@ -170,6 +170,7 @@ padding-bottom: 0;
 width: calc((100% - 72px) / 4); /*(ВАЖНО ЗНАТЬ)*/
 }
 .advantages-title{
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -178,6 +179,7 @@ color: var(--NAVY_BLUE);
 margin-bottom: 8px;
 }
 .advantages-text{
+font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -192,6 +194,7 @@ color: var(--SLATE);
   width:  calc((100% - 48px) / 3); /*(ВАЖНО ЗНАТЬ)*/
 }
 .activity-title{
+font-family: 'Roboto';
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -219,6 +222,7 @@ width: calc((100% - 72px) / 4); /*(ВАЖНО ЗНАТЬ)*/
   padding-bottom: 32px;
 }
 .team-title{
+  font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 1.12;
@@ -244,7 +248,7 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 .text{
-  margin-top: 16px;
+margin-top: 16px;
 display: block;
 width: 264px;
 font-size: 16px;
@@ -281,34 +285,37 @@ color: #FFFFFF;
   margin-right: 24px;
 }
 .menu-list{
-  width: 1170px;
   display: flex;
   flex-wrap: wrap;
 }
 .menu-items{
-width: calc((100% - 60px) / 3); /*(ВАЖНО ЗНАТЬ)*/
+  height: 420px;
+width: calc((100% - 48px) / 3); /*(ВАЖНО ЗНАТЬ)*/
 background: var(--white);
 border: 1px solid #EEEEEE;
 }
 .menu-items:nth-child(-n+6){
-  margin-bottom: 30px;
+  margin-bottom: 48px;
 }
 .menu-items:nth-child(3n+1),
 .menu-items:nth-child(3n+2){
-  margin-right: 30px;
+  margin-right: 24px;
 }
 .menu-box{
-padding: 32px 54px 32px 16px;
+padding-top: 32px;
+padding-bottom: 32px;padding-left: 16px;
 }
 .menu-title{
-  font-weight: 500;
+font-family: 'Roboto';
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--NAVY_BLUE);
-margin-bottom: 4px;
+margin-bottom: 8px;
 }
 .menu-text{
+font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
